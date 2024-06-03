@@ -3,13 +3,13 @@
 	"id": "sodiumfixed",
 	"version": "${version}",
 	"name": "SodiumFixed",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A patch module that can go wrong at any time.",
 	"authors": [
-		"Me!"
+		"Redstone233"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://redstone2337200.github.io",
+		"sources": "https://github.com/Redstone2337200/SodiumPatch/"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/sodiumfixed/icon.png",
@@ -29,7 +29,8 @@
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"sodium": ">=0.5.4"
 	},
 	"suggests": {
 		"another-mod": "*"
